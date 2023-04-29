@@ -1,0 +1,95 @@
+name: untitled
+description: A new Flutter project.
+
+publish_to:
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0-417.2.beta <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  firebase_auth: ^4.4.2
+  firebase_core: ^2.10.0
+  firebase_storage: ^11.1.1
+  fluttertoast: ^8.2.1
+  cloud_firestore: ^4.5.3
+  shared_preferences: ^2.1.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - lib/assets/images/
+    - lib/assets/Poppins/
+
+
+
+
+
+
+
+
+  fonts:
+     - family: Poppins
+       fonts:
+         - asset: lib/assets/Poppins/Poppins-Black.ttf
+         - asset: lib/assets/Poppins/Poppins-BlackItalic.ttf
+           weight: 800
+
+
+         - asset: lib/assets/Poppins/Poppins-Bold.ttf
+         - asset: lib/assets/Poppins/Poppins-BoldItalic.ttf
+           weight: 700
+
+         - asset: lib/assets/Poppins/Poppins-ExtraBold.ttf
+         - asset: lib/assets/Poppins/Poppins-ExtraBoldItalic.ttf
+           weight: 800
+
+         - asset: lib/assets/Poppins/Poppins-ExtraLight.ttf
+         - asset: lib/assets/Poppins/Poppins-ExtraLightItalic.ttf
+           weight: 200
+
+
+         - asset: lib/assets/Poppins/Poppins-Light.ttf
+         - asset: lib/assets/Poppins/Poppins-LightItalic.ttf
+           weight: 300
+
+         - asset: lib/assets/Poppins/Poppins-Medium.ttf
+         - asset: lib/assets/Poppins/Poppins-MediumItalic.ttf
+         - asset: lib/assets/Poppins/Poppins-Regular.ttf
+         - asset: lib/assets/Poppins/Poppins-Italic.ttf
+           weight: 500
+
+
+         - asset: lib/assets/Poppins/Poppins-SemiBold.ttf
+         - asset: lib/assets/Poppins/Poppins-SemiBoldItalic.ttf
+           weight: 400
+
+
+         - asset: lib/assets/Poppins/Poppins-Thin.ttf
+         - asset: lib/assets/Poppins/Poppins-ThinItalic.ttf
+           weight: 100
+
+
